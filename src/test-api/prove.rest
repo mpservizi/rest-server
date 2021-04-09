@@ -1,0 +1,41 @@
+@baseUrl = http://localhost:4000/api
+@route = prove/
+@testUrl = {{baseUrl}}/{{route}}
+
+//Get request
+GET {{testUrl}} HTTP/1.1
+
+###
+//Get by id
+GET {{testUrl}}/606b39d80e89412de8141a29
+
+###
+//Post request
+POST {{testUrl}} HTTP/1.1
+content-type: application/json
+
+{
+    "corrente": "160",
+    "carico": "19.2",
+    "nome": "Fluo lamps",
+    "durata": 1
+}
+
+###
+//Update request
+PUT  {{testUrl}} HTTP/1.1
+content-type: application/json
+
+{
+    "_id": "606b39d80e89412de8141a29",
+    "nome": "To update"
+}
+
+###
+//Delete request
+DELETE   {{testUrl}} HTTP/1.1
+content-type: application/json
+
+{
+    "_id": "606b39d80e89412de8141a29"
+}

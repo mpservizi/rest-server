@@ -1,0 +1,80 @@
+@baseUrl = http://localhost:4000/api
+@route = dati_ciclatura/
+@testUrl = {{baseUrl}}/{{route}}
+
+//Get request
+GET {{testUrl}} HTTP/1.1
+
+###
+//Get by id
+GET {{testUrl}}/db2
+
+###
+//Post request
+POST {{testUrl}} HTTP/1.1
+content-type: application/json
+
+{
+  "_id": "db2",
+	"eventi": [
+		{
+			"start_date": "2021-03-08T23:00:00.000+00:00",
+			"end_date": "2021-03-14T23:00:00.000+00:00",
+			"tecnico": "Malkit",
+			"stato": 4,
+			"idMacchina": "3",
+			"carico": "19.1",
+			"idRisorsa": "6069a843b961d224101865e3",
+			"text": "21-0129",
+			"corrente": "10",
+			"idRequest": "6067644c1b430e1a64fb3938",
+			"titolo": "Universal range"
+		},
+		{
+			"start_date": "2021-03-03T23:00:00.000+00:00",
+			"end_date": "2021-03-06T23:00:00.000+00:00",
+			"tecnico": "Malkit",
+			"stato": 4,
+			"idMacchina": "3",
+			"carico": "19.1",
+			"idRisorsa": "6069a843b961d224101865e3",
+			"text": "21-0129",
+			"corrente": "10",
+			"idRequest": "6067644c1b430e1a64fb3938",
+			"titolo": "Universal range"
+		}    
+	]
+}
+
+###
+//Update request
+PUT  {{testUrl}} HTTP/1.1
+content-type: application/json
+
+{
+    "_id": "db2",
+    "eventi": [
+		{
+			"start_date": "2021-03-08T23:00:00.000+00:00",
+			"end_date": "2021-03-14T23:00:00.000+00:00",
+			"tecnico": "Malkit",
+			"stato": 4,
+			"idMacchina": "3",
+			"carico": "19.1",
+			"idRisorsa": "6069a843b961d224101865e3",
+			"text": "21-0129",
+			"corrente": "10",
+			"idRequest": "6067644c1b430e1a64fb3938",
+			"titolo": "Universal range"
+		}
+		]
+}
+
+###
+//Delete request
+DELETE   {{testUrl}} HTTP/1.1
+content-type: application/json
+
+{
+    "_id": "db2"
+}

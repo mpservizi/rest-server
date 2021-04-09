@@ -1,0 +1,242 @@
+[
+  {
+    "Macchina": "L180",
+    "Stallo": 1,
+    "Tecnico": "Max",
+    "Prova": "20-0140",
+    "Start": "09/04/2021 07:50",
+    "End": "15/04/2021 17:50",
+    "Stato": 1,
+    "Export time": "12/04/2021 13:50"
+  },
+  {
+    "Macchina": "L180",
+    "Stallo": 2,
+    "Tecnico": "Max",
+    "Prova": "20-0141",
+    "Start": "09/04/2021 07:51",
+    "End": "15/04/2021 17:51",
+    "Stato": 3,
+    "Export time": "12/04/2021 13:51"
+  },
+  {
+    "Macchina": "L180",
+    "Stallo": 3,
+    "Tecnico": "Max",
+    "Prova": "20-0142",
+    "Start": "09/04/2021 07:52",
+    "End": "15/04/2021 17:52",
+    "Stato": 3,
+    "Export time": "12/04/2021 13:52"
+  },
+  {
+    "Macchina": "L180",
+    "Stallo": 4,
+    "Tecnico": "Max",
+    "Prova": "20-0143",
+    "Start": "09/04/2021 07:53",
+    "End": "15/04/2021 17:53",
+    "Stato": 6,
+    "Export time": "12/04/2021 13:53"
+  },
+  {
+    "Macchina": "L180",
+    "Stallo": 6,
+    "Tecnico": "Max",
+    "Prova": "20-0144",
+    "Start": "09/04/2021 07:54",
+    "End": "15/04/2021 17:54",
+    "Stato": 1,
+    "Export time": "12/04/2021 13:54"
+  },
+  {
+    "Macchina": "L180",
+    "Stallo": 7,
+    "Tecnico": "Max",
+    "Prova": "20-0145",
+    "Start": "09/04/2021 07:55",
+    "End": "15/04/2021 17:55",
+    "Stato": 2,
+    "Export time": "12/04/2021 13:55"
+  },
+  {
+    "Macchina": "L180",
+    "Stallo": 8,
+    "Tecnico": "Max",
+    "Prova": "20-0146",
+    "Start": "09/04/2021 07:56",
+    "End": "15/04/2021 17:56",
+    "Stato": 2,
+    "Export time": "12/04/2021 13:56"
+  },
+  {
+    "Macchina": "L180",
+    "Stallo": 9,
+    "Tecnico": "Max",
+    "Prova": "20-0147",
+    "Start": "09/04/2021 07:57",
+    "End": "15/04/2021 17:57",
+    "Stato": 6,
+    "Export time": "12/04/2021 13:57"
+  },
+  {
+    "Macchina": "L232",
+    "Stallo": 1,
+    "Tecnico": "Max",
+    "Prova": "20-0148",
+    "Start": "09/04/2021 07:58",
+    "End": "15/04/2021 17:58",
+    "Stato": 2,
+    "Export time": "12/04/2021 13:58"
+  },
+  {
+    "Macchina": "L232",
+    "Stallo": 2,
+    "Tecnico": "Max",
+    "Prova": "20-0149",
+    "Start": "09/04/2021 07:59",
+    "End": "15/04/2021 17:59",
+    "Stato": 7,
+    "Export time": "12/04/2021 13:59"
+  },
+  {
+    "Macchina": "L232",
+    "Stallo": 3,
+    "Tecnico": "Max",
+    "Prova": "20-0150",
+    "Start": "09/04/2021 07:60",
+    "End": "15/04/2021 17:60",
+    "Stato": 2,
+    "Export time": "12/04/2021 13:60"
+  },
+  {
+    "Macchina": "L232",
+    "Stallo": 4,
+    "Tecnico": "Max",
+    "Prova": "20-0151",
+    "Start": "09/04/2021 07:61",
+    "End": "15/04/2021 17:61",
+    "Stato": 5,
+    "Export time": "12/04/2021 13:61"
+  },
+  {
+    "Macchina": "L232",
+    "Stallo": 6,
+    "Tecnico": "Max",
+    "Prova": "20-0152",
+    "Start": "09/04/2021 07:62",
+    "End": "15/04/2021 17:62",
+    "Stato": 2,
+    "Export time": "12/04/2021 13:62"
+  },
+  {
+    "Macchina": "L232",
+    "Stallo": 7,
+    "Tecnico": "Max",
+    "Prova": "20-0153",
+    "Start": "09/04/2021 07:63",
+    "End": "15/04/2021 17:63",
+    "Stato": 4,
+    "Export time": "12/04/2021 13:63"
+  },
+  {
+    "Macchina": "L232",
+    "Stallo": 8,
+    "Tecnico": "Max",
+    "Prova": "20-0154",
+    "Start": "09/04/2021 07:64",
+    "End": "15/04/2021 17:64",
+    "Stato": 4,
+    "Export time": "12/04/2021 13:64"
+  },
+  {
+    "Macchina": "L232",
+    "Stallo": 9,
+    "Tecnico": "Max",
+    "Prova": "20-0155",
+    "Start": "09/04/2021 07:65",
+    "End": "15/04/2021 17:65",
+    "Stato": 1,
+    "Export time": "12/04/2021 13:65"
+  },
+  {
+    "Macchina": "L2020",
+    "Stallo": 1,
+    "Tecnico": "Max",
+    "Prova": "20-0156",
+    "Start": "09/04/2021 07:66",
+    "End": "15/04/2021 17:66",
+    "Stato": 3,
+    "Export time": "12/04/2021 13:66"
+  },
+  {
+    "Macchina": "L2020",
+    "Stallo": 2,
+    "Tecnico": "Max",
+    "Prova": "20-0157",
+    "Start": "09/04/2021 07:67",
+    "End": "15/04/2021 17:67",
+    "Stato": 6,
+    "Export time": "12/04/2021 13:67"
+  },
+  {
+    "Macchina": "L2020",
+    "Stallo": 3,
+    "Tecnico": "Max",
+    "Prova": "20-0158",
+    "Start": "09/04/2021 07:68",
+    "End": "15/04/2021 17:68",
+    "Stato": 1,
+    "Export time": "12/04/2021 13:68"
+  },
+  {
+    "Macchina": "L2020",
+    "Stallo": 4,
+    "Tecnico": "Max",
+    "Prova": "20-0159",
+    "Start": "09/04/2021 07:69",
+    "End": "15/04/2021 17:69",
+    "Stato": 5,
+    "Export time": "12/04/2021 13:69"
+  },
+  {
+    "Macchina": "L2020",
+    "Stallo": 5,
+    "Tecnico": "Max",
+    "Prova": "20-0160",
+    "Start": "09/04/2021 07:70",
+    "End": "15/04/2021 17:70",
+    "Stato": 5,
+    "Export time": "12/04/2021 13:70"
+  },
+  {
+    "Macchina": "L2020",
+    "Stallo": 6,
+    "Tecnico": "Max",
+    "Prova": "20-0161",
+    "Start": "09/04/2021 07:71",
+    "End": "15/04/2021 17:71",
+    "Stato": 2,
+    "Export time": "12/04/2021 13:71"
+  },
+  {
+    "Macchina": "L2020",
+    "Stallo": 7,
+    "Tecnico": "Max",
+    "Prova": "20-0162",
+    "Start": "09/04/2021 07:72",
+    "End": "15/04/2021 17:72",
+    "Stato": 4,
+    "Export time": "12/04/2021 13:72"
+  },
+  {
+    "Macchina": "L2020",
+    "Stallo": 8,
+    "Tecnico": "Max",
+    "Prova": "20-0163",
+    "Start": "09/04/2021 07:73",
+    "End": "15/04/2021 17:73",
+    "Stato": 6,
+    "Export time": "12/04/2021 13:73"
+  }
+]

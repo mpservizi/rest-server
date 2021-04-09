@@ -1,0 +1,52 @@
+@baseUrl = http://localhost:4000/api
+@route = testrequest/
+@testUrl = {{baseUrl}}/{{route}}
+
+//Get request
+GET {{testUrl}} HTTP/1.1
+
+###
+//Get by id
+GET {{testUrl}}/606b3b43e0c8cd2da839e4a1
+
+###
+//Post request
+POST {{testUrl}} HTTP/1.1
+content-type: application/json
+
+{
+  "idRequest": "4",
+  "codiceProgetto": "PR-04578",
+  "titoloProgetto": "Pogetto prova",
+  "descrizione": "Verifica nuova molla",
+  "dataInizio": "2021-03-05T23:00:00.000Z",
+  "dataFine": "2021-03-28T23:00:00.000Z",
+  "weekInizio": 14,
+  "weekFine": 17,
+  "tecnico": "Malkit",
+  "cliente": "Andrea Barbero",
+  "priority": 1,
+  "stato": 1,
+  "c1": 2,
+  "c2": 3,
+  "c3": 4
+}
+
+###
+//Update request
+PUT  {{testUrl}} HTTP/1.1
+content-type: application/json
+
+{
+    "_id": "606b3b43e0c8cd2da839e4a1",
+    "titoloProgetto": "Progetto update"
+}
+
+###
+//Delete request
+DELETE   {{testUrl}} HTTP/1.1
+content-type: application/json
+
+{
+    "_id": "606b3b43e0c8cd2da839e4a1"
+}

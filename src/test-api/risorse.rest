@@ -1,0 +1,39 @@
+@baseUrl = http://localhost:3000/api
+@route = risorse/
+@testUrl = {{baseUrl}}/{{route}}
+
+//Get request
+GET {{testUrl}} HTTP/1.1
+
+###
+//Get by id
+GET {{testUrl}}/Risorse-1617697493651
+
+###
+//Post request
+POST {{testUrl}} HTTP/1.1
+content-type: application/json
+
+{
+    "label": "L2020-78",
+    "idMacchina": 4
+}
+
+###
+//Update request
+PUT  {{testUrl}} HTTP/1.1
+content-type: application/json
+
+{
+    "_id": "Risorse-1617697493651",
+    "idMacchina": 100
+}
+
+###
+//Delete request
+DELETE   {{testUrl}} HTTP/1.1
+content-type: application/json
+
+{
+    "_id": "Risorse-1617697493651"
+}
