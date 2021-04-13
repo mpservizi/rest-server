@@ -69,7 +69,6 @@ class Modello {
     let posItem = dati.map((o) => o._id).indexOf(criteria._id);
     if (posItem > -1) {
       let newdati = dati.splice(posItem, 1);
-      console.log(newdati);
       let esito = await FileDb.save(this.tabella, dati);
       if (esito) {
         return newdati;
