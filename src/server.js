@@ -10,11 +10,15 @@ app.use(express.urlencoded({ extended: false, limit: "20mb" }));
 
 app.use(express.static(path.join(__dirname, "..", "public")));
 
+app.use("/api", apiRouter);
+
 app.get("/", function (req, res) {
   res.sendFile("index.html");
 });
 
-app.use("/api", apiRouter);
+app.get("/*", function (req, res) {
+  res.redirect("/");
+});
 
 function start() {
   return new Promise(function (resolve, reject) {
