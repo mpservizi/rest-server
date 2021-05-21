@@ -1,0 +1,71 @@
+@baseUrl = http://localhost:3000/api
+@route = monitor/
+@testUrl = {{baseUrl}}/{{route}}
+
+//Get request
+GET {{testUrl}} HTTP/1.1
+
+###
+//Get by id
+GET {{testUrl}}/db1
+
+###
+//Post request
+POST {{testUrl}} HTTP/1.1
+content-type: application/json
+
+{
+    "_id":"db1",
+    "dati": [
+        {
+            "Macchina": "L180",
+            "Stallo": 1,
+            "Tecnico": "Max",
+            "Prova": "20-0140",
+            "Start": "09/04/2021 07:50",
+            "End": "15/04/2021 17:50",
+            "Stato": 1,
+            "Export time": "12/04/2021 13:50"
+        },
+        {
+            "Macchina": "L180",
+            "Stallo": 2,
+            "Tecnico": "Max",
+            "Prova": "20-0141",
+            "Start": "09/04/2021 07:51",
+            "End": "15/04/2021 17:51",
+            "Stato": 3,
+            "Export time": "12/04/2021 13:51"
+        }
+    ]
+}
+
+###
+//Update request
+PUT  {{testUrl}} HTTP/1.1
+content-type: application/json
+
+{
+    "_id": "db1",
+    "dati": [
+    {
+        "Macchina": "L180",
+        "Stallo": 2,
+        "Tecnico": "Max",
+        "Prova": "20-0141",
+        "Start": "09/04/2021 07:51",
+        "End": "15/04/2021 17:51",
+        "Stato": 3,
+        "Export time": "12/04/2021 13:51"
+    }
+    ]
+}
+
+###
+//Delete request
+DELETE   {{testUrl}} HTTP/1.1
+content-type: application/json
+
+{
+    "_id": "db1"
+}
