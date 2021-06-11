@@ -4,9 +4,9 @@
 const path = require("path");
 const DbManger = require("./lib/db-manager");
 const model = require("./models/Stati.js");
-const DB_FOLDER = process.env.DB_FOLDER;
-let dbPath1 = path.join(DB_FOLDER, "DB1.mdb");
-let dbPath2 = path.join(DB_FOLDER, "DB2.mdb");
+const DB_FOLDER = process.env.DB_CICLATURA_FOLDER;
+let dbPath1 = path.join(DB_FOLDER, "CiclatureDB_Movicon1.mdb");
+let dbPath2 = path.join(DB_FOLDER, "CiclatureDB_Movicon2.mdb");
 
 let dbm1, dbm2;
 
